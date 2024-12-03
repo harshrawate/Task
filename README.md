@@ -13,8 +13,6 @@ Frontend: HTML, CSS, JavaScript, React.js
 Styling: Bootstrap
 Version Control: Git and GitHub
 📂 Directory Structure
-csharp
-Copy code
 Task-Manager/
 ├── public/              # Static files
 ├── src/
@@ -24,10 +22,13 @@ Task-Manager/
 │   └── App.js           # Main application logic
 ├── README.md            # Project documentation
 └── package.json         # Project dependencies
+
+
 🚩 How to Use
 Clone the repository:
 
 Copy code
+
 git clone https://github.com/harshrawate/Task-Manager.git
 cd Task-Manager
 
@@ -35,6 +36,7 @@ cd Task-Manager
 Install dependencies:
 
 Copy code
+
 npm install
 
 
