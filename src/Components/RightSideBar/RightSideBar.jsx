@@ -10,7 +10,7 @@ import DeleteTaskModal from "Components/DeleteTaskModal/DeleteTaskModal";
 import {
   OffcanvasContainer,
   Header,
-  ProfileBtn,
+  
   // IcoContainer,
   Footer,
   DeleteBtn,
@@ -86,7 +86,7 @@ const RightSideBar = ({
           We don't have an authentication system now, so there is no need to that.
         */}
         <Offcanvas.Title>
-          Sidebar
+          Record
         </Offcanvas.Title>
         <ButtonContainer onClick={handleToggleTheme}>
           <span>Darkmode</span>
@@ -112,9 +112,7 @@ const RightSideBar = ({
       </Offcanvas.Body>
       <Footer>
         <DeleteBtn onClick={handleDeleteAllTasks}>Delete all task</DeleteBtn>
-        <ProfileBtn>
-          <a href="https://github.com/ZiadSheriif/Todo-List">Open-Source on GitHub!</a>
-        </ProfileBtn>{" "}
+       {" "}
         <DeleteTaskModal
           deleteTask={deleteTask}
           setDeleteTask={setDeleteTask}

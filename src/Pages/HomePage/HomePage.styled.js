@@ -1,4 +1,6 @@
 import styled from "styled-components";
+
+// Home container styled with background from the theme
 export const HomeContainer = styled.div`
   background-color: ${({ theme }) => theme.background.primary};
   align-items: center;
@@ -6,6 +8,8 @@ export const HomeContainer = styled.div`
   max-width: 100%;
   min-height: 100vh;
 `;
+
+// Main container with flex layout for larger screens
 export const Container = styled.div`
   display: flex;
   position: relative;
@@ -17,6 +21,7 @@ export const Container = styled.div`
   }
 `;
 
+// Header styling with center alignment
 export const AppHeader = styled.header`
   position: relative;
   display: flex;
@@ -25,6 +30,7 @@ export const AppHeader = styled.header`
   overflow: auto;
 `;
 
+// Center content container with responsiveness for smaller screens
 export const CenterContainer = styled.div`
   position: relative;
   display: inline;
@@ -35,6 +41,8 @@ export const CenterContainer = styled.div`
     width: 100%;
   }
 `;
+
+// Container for tasks, styled for flexible wrapping
 export const ContainerTasks = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -46,12 +54,16 @@ export const ContainerTasks = styled.div`
     align-items: center;
   }
 `;
+
+// Section styled for individual blocks within layout
 export const Section = styled.div`
   width: 20%;
   @media screen and (max-width: 1024px) {
     width: 100%;
   }
 `;
+
+// Current item styling with uppercase text and theme-based color
 export const CurrentItem = styled.div`
   display: flex;
   text-align: center;
@@ -66,6 +78,7 @@ export const CurrentItem = styled.div`
   }
 `;
 
+// Shape view styling with flex display and responsive alignment
 export const ShapeView = styled.div`
   display: flex;
   left: 0;
@@ -75,14 +88,16 @@ export const ShapeView = styled.div`
     justify-content: center;
   }
 `;
+
+// Child view styling for both light and dark modes with orange color in light mode
 export const ChildView = styled.span`
   padding: 3px;
-  color: ${({ theme }) => theme.canvas};
+  color: ${({ theme }) => theme.id === "light" ? "#FF9800" : "#000"};  // Orange color in light mode and default color in dark mode
   cursor: pointer;
+  background-color: ${({ theme }) => theme.canvas};
+
+  /* No hover effect in light mode */
   :hover {
-    background-color: ${({ theme }) => theme.background.viewBtnColor};
+    background-color: ${({ theme }) => theme.id === "light" ? theme.canvas : theme.background.viewBtnColor};
   }
-  /* :hover {
-    background-color: red;
-  } */
 `;

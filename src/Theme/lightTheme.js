@@ -20,22 +20,22 @@
  */
 const lightTheme = {
   id: "light",
-  canvas: "#7c3aed",
+  canvas: "#FFFFFF", // Pure white background for cleanliness
   color: {
-    primary: "#475569",
-    hover: "#e31d48",
-    muted: "#7c7c7c",
+    primary: "#212121", // Dark gray text
+    hover: "#FF8A00",   // Bright orange hover
+    muted: "#A4A4A4",   // Slightly lighter muted text
   },
   background: {
-    primary: "#f1f5f9",
-    hover: "#6d28c1",
-    secondary: "#FC0404",
-    hoverBtnColor: "#B40404",
-    viewBtnColor: "#d3d3d3",
-    iconHoverColor: "##9370db",
+    primary: "#FFFFFF",         // Clean white background
+    hover: "#FFB74D",           // Softer hover background for better contrast
+    secondary: "#FFEB99",       // Lighter secondary orange background
+    hoverBtnColor: "#FF8A00",   // Bright orange for buttons on hover
+    viewBtnColor: "#FFB300",    // Golden-orange view button
+    iconHoverColor: "#FF6F00",  // Vibrant orange for icon hover
   },
   lineColor: {
-    primary: "#fff",
+    primary: "#F2B79F",         // Slightly darker line color for better contrast
   },
 };
 

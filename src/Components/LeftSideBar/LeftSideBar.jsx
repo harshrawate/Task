@@ -34,7 +34,7 @@ const LeftSideBar = ({ setTasks, tasks }) => {
         scroll={true}
       >
         <Header>
-          <Offcanvas.Title>to-do list</Offcanvas.Title>
+          <Offcanvas.Title>Task Manager</Offcanvas.Title>
           <TaskBtn
             onClick={() => {
               setShowAddNewTask(true);
