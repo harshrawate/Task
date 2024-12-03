@@ -30,6 +30,7 @@ Clone the repository:
 Copy code
 
 git clone https://github.com/harshrawate/Task-Manager.git
+
 cd Task-Manager
 
 
