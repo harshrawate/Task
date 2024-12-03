@@ -2,6 +2,9 @@
 Task-Manager
 A sleek and efficient web-based task management application to help you organize your tasks and boost productivity. This application allows users to create, edit, and track their daily tasks seamlessly.
 
+🙌 Acknowledgments
+This project is inspired by open-source contributions. Special thanks to the community for the guidance and support.
+
 🚀 Features
 Task Categorization: Organize tasks into categories such as Important, Completed, and Uncompleted.
 Search Functionality: Quickly find tasks using the search bar.
@@ -48,7 +51,6 @@ npm start
 
 Open your browser and navigate to http://localhost:3000.
 
-🙌 Acknowledgments
-This project is inspired by open-source contributions. Special thanks to the community for the guidance and support.
+
 
 
